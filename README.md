@@ -73,9 +73,11 @@ mern-thinkboard/
    ```
 2. Create a `.env` file in `backend/` with:
    ```env
-   MONGO_URL=your_mongodb_connection_string
-   UPSTASH_REDIS_REST_URL=your_upstash_redis_url
-   UPSTASH_REDIS_REST_TOKEN=your_upstash_redis_token
+ MONGO_URL =mongodb+srv://rahimahsiddiqi:rAhi1234@cluster0.s8dlauc.mongodb.net/notes_db?retryWrites=true&w=majority&appName=Cluster0
+PORT =5001
+
+UPSTASH_REDIS_REST_URL =https://rare-chimp-56504.upstash.io
+UPSTASH_REDIS_REST_TOKEN =Ady4AAIjcDFhYjFjNjEyNzMyYzU0MzJkYjk2NDE0NDA2MGYxNzdhOXAxMA
    ```
 3. Start the server:
    ```bash
